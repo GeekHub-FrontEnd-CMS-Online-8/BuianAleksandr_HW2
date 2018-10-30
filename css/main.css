@@ -1,5 +1,6 @@
 body {
-  line-height: 1.3rem; }
+  line-height: 1.3rem;
+  font-size: 15px; }
 
 article {
   max-width: 642px;
@@ -9,11 +10,9 @@ header {
   text-align: center; }
   header h1 {
     font-size: 1.6rem;
-    line-height: 1rem; }
+    line-height: 0; }
   header em {
-    font-size: 1rem; }
-  header h3 {
-    line-height: 2rem; }
+    font-size: 1.2rem; }
   header strong {
     font-size: 1rem; }
 
@@ -71,7 +70,7 @@ ol {
   list-style-type: disc;
   margin: 3rem 0; }
   .dotted li {
-    padding-left: 1rem; }
+    padding-left: 0.7rem; }
 
 .small-ol {
   padding-left: 40px; }
@@ -79,4 +78,4 @@ ol {
     margin: 0; }
   .small-ol li {
     list-style-type: decimal;
-    padding-left: 1rem; }
+    padding-left: 0.7rem; }
