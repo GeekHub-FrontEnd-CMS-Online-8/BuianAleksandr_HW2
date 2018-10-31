@@ -24,6 +24,9 @@ ol {
   counter-reset: num;
   padding: 0; }
 
+.center-text {
+  text-align: center; }
+
 .main-list h2 {
   line-height: 2rem; }
 
