@@ -6,15 +6,20 @@ article {
   max-width: 642px;
   margin: 90px auto; }
 
-header {
+.main-header {
   text-align: center; }
-  header h1 {
+  .main-header h1 {
     font-size: 1.6rem;
-    line-height: 0; }
-  header em {
+    line-height: 0rem;
+     }
+  .main-header em {
     font-size: 1.2rem; }
-  header strong {
+  .main-header strong {
     font-size: 1rem; }
+
+@media only screen and (max-width: 600px) {
+  .main-header h1{
+    line-height: 1.6rem;} }      
 
 p {
   margin-bottom: 1rem; }
@@ -27,12 +32,9 @@ ol {
 .center-text {
   text-align: center; }
 
-.main-list h2 {
-  line-height: 2rem; }
-
-.main-list h2::before {
-  content: counter(num) " ";
-  counter-increment: num; }
+h3{
+  font-weight: bold;
+  font-size: 1.3rem; }  
 
 .underline-text {
   text-decoration: underline; }
@@ -82,3 +84,5 @@ ol {
   .small-ol li {
     list-style-type: decimal;
     padding-left: 0.7rem; }
+
+    
